@@ -5,7 +5,7 @@ import {
   HiOutlineShoppingBag,
   HiBars3BottomRight,
 } from "react-icons/hi2";
-import Searchbar from "./Searchbar";
+import SearchBar from "./SearchBar";
 import CartDrawer from "../Layout/CartDrawer";
 import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";
@@ -97,7 +97,7 @@ const Navbar = () => {
           </button>
           {/* Search */}
           <div className="overflow-hidden">
-            <Searchbar />
+            <SearchBar />
           </div>
 
           <button
