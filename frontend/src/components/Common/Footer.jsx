@@ -39,22 +39,42 @@ const Footer = () => {
           <h3 className="text-lg text-gray-800 mb-4">Shop</h3>
           <ul className="space-y-2 text-gray-600">
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <Link
+                to="collections/all"
+                className="hover:text-gray-500 transition-colors"
+              >
+                All Collection
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="collections/all?gender=Men"
+                className="hover:text-gray-500 transition-colors"
+              >
                 Men's Top Wear
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <Link
+                to="collections/all?gender=Women"
+                className="hover:text-gray-500 transition-colors"
+              >
                 Women's Top Wear
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <Link
+                to="collections/all?category=Top Wear"
+                className="hover:text-gray-500 transition-colors"
+              >
                 Men's Bottom Wear
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-gray-500 transition-colors">
+              <Link
+                to="collections/all?category=Bottom Wear"
+                className="hover:text-gray-500 transition-colors"
+              >
                 Women's Bottom Wear
               </Link>
             </li>
@@ -120,7 +140,7 @@ const Footer = () => {
           <p className="text-gray-500 pb-1">Call Us</p>
           <p>
             <FiPhoneCall className="inline-block mr-2" />
-            +1 234 567 890
+            +91 98765 43210
           </p>
         </div>
       </div>
